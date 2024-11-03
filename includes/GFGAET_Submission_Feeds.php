@@ -916,7 +916,6 @@ gtag('config', '<?php echo esc_js( $ga_code ); ?>');
 						'GFTrackAction':'<?php echo esc_js( $event_action ); ?>',
 						'GFTrackLabel':'<?php echo esc_js( $event_label ); ?>',
 						'GFTrackValue': <?php echo absint( $event_value ); ?>,
-						'GFEntryData':<?php echo wp_json_encode( $entry ); ?>,
 						'GFTrackSource': utmSource,
 						'GFTrackMedium': utmMedium,
 						'GFTrackCampaign': utmCampaign,
